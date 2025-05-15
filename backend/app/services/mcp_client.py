@@ -4,10 +4,10 @@ from bs4 import BeautifulSoup
 
 BRIGHT_MCP_HOST = os.getenv("MCP_HOST", "http://localhost")
 BRIGHT_MCP_PORT = os.getenv("MCP_PORT", "8191")
-BRIGHT_MCP_TOKEN = os.getenv("BRIGHT_DATA_API_TOKEN")
+BRIGHT_MCP_TOKEN = os.getenv("bae5e93d-8ba1-4191-9f7f-16348592d0bf")
 
 HEADERS = {
-    "Authorization": f"Bearer {BRIGHT_MCP_TOKEN}"
+    "Authorization": f"Bearer {bae5e93d-8ba1-4191-9f7f-16348592d0bf}"
 }
 
 def parse_amazon(html: str):
